@@ -12,5 +12,5 @@ Working on the Fleet Management Devices and System...
 
 ### Contact me
 
-I don't want to fill my mail-box with spams.
+I don't want to fill my mail-box with spams.  
 Please, contact me via footer-links below.
