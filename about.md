@@ -4,12 +4,13 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+An ordinary developer in Korea.
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+Working on the Fleet Management Devices and System...
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+I don't want to fill my mail-box with spams.
+Please, contact me via footer-links below.
