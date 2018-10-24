@@ -12,6 +12,8 @@ avatar: https://lh3.googleusercontent.com/-HPAt-MPDWlg/AAAAAAAAAAI/AAAAAAAAAB0/5
 # Flags below are optional
 #
 
+permalink: /:categories/:title/
+
 # Includes an icon in the footer for each username you enter
 footer-links:
 
