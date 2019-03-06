@@ -2,11 +2,13 @@
 layout: post
 title: "ADB : useful commands"
 categories: Android
-tags:  Android, adb
+tags:  Android adb
 ---
 
 * content
 {:toc}
+
+Keep updating the commands...
 
 
 #### Make a screen-shot and get it
