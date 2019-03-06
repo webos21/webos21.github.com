@@ -4,8 +4,8 @@ layout: default
 
 <div class="page clearfix" index>
     <div class="left">
-        <h1>Welcome to HyG's Blog!</h1>
-        <small>这里记录着我的前端学习之路</small>
+        <h1>Welcome to webos21's archives</h1>
+        <small>I hope to find the things what you need.</small>
         <hr>
         <ul>
             {% for post in paginator.posts %}
@@ -44,8 +44,6 @@ layout: default
             {% endfor %}
         </ul>
 
-
-
         <!-- Pagination links -->
         <div class="pagination">
           {% if paginator.previous_page %}
@@ -65,7 +63,7 @@ layout: default
           {% endif %}
         </div>
     </div>
-    <!-- <button class="anchor"><i class="fa fa-anchor"></i></button> -->
+
     <div class="right">
         <div class="wrap">
             <div class="side">
@@ -99,7 +97,7 @@ layout: default
                     {% endfor %}
                 </ul>
             </div>
-            <!-- 其他div框放到这里 -->
+
             <div class="side">
                 <div>
                     <i class="fa fa-tags"></i>
@@ -144,15 +142,6 @@ layout: default
                 </div>
             </div>
 
-            <!-- <div class="side">
-                <div>
-                    <i class="fa fa-external-link"></i>
-                    Links
-                </div>
-                <ul  class="content-ul">
-
-                </ul>
-            </div> -->
         </div>
     </div>
 </div>
