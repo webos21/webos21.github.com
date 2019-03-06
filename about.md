@@ -8,7 +8,7 @@ An ordinary developer in Korea.
 
 ### More Information
 
-Working on the Fleet Management Devices and System...
+Working on the Fleet Management System and Devices...
 
 ### Contact me
 
