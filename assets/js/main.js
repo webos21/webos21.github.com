@@ -1,10 +1,6 @@
-/**
- * some JavaScript code for this blog theme
- */
 
-/////////////////////////header////////////////////////////
 /**
- * clickMenu
+ * Set the Header
  */
 (function() {
   if (window.innerWidth <= 770) {
@@ -27,7 +23,9 @@
   }
 }());
 
-//////////////////////////back to top////////////////////////////
+/**
+ * Back to TOP
+ */
 (function() {
   var backToTop = document.querySelector('.back-to-top')
   var backToTopA = document.querySelector('.back-to-top a')
@@ -42,7 +40,9 @@
   });
 }());
 
-//////////////////////////hover on demo//////////////////////////////
+/**
+ * Hover on DEMO
+ */
 (function() {
   var demoItems = document.querySelectorAll('.grid-item');
 }());
