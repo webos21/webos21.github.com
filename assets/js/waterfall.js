@@ -35,8 +35,8 @@ function contentInit(content) {
     htmlStr += '       <a href="' + content[i].demo_link + '">' + content[i].title + '</a>\n';
     htmlStr += '   </h3>\n';
     htmlStr += '   <p>Tech：' + content[i].core_tech + '</p>\n';
-    htmlStr += '   <p>' + content[i].description + '\n';
-    htmlStr += '       <a href="' + content[i].code_link + '">Code <i class="fa fa-code" aria-hidden="true"></i></a>\n';
+    htmlStr += '   <p>' + content[i].description + '<br/>\n';
+    htmlStr += '       <a href="' + content[i].code_link + '">Code Link <i class="fa fa-code" aria-hidden="true"></i></a>\n';
     htmlStr += '   </p>\n';
     htmlStr += '</div>\n';
   }
