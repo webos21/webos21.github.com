@@ -14,6 +14,14 @@
       title: 'PasswordBook',
       core_tech: 'Android',
       description: 'PasswordBook App for Android'
+    },
+    {
+      demo_link: 'https://webos21.github.io/GuiSocketProber',
+      img_link: 'https://webos21.github.io/GuiSocketProber/src/main/resources/icon/logo.gif',
+      code_link: 'https://github.com/webos21/GuiSocketProber',
+      title: 'GuiSocketProber',
+      core_tech: 'Java',
+      description: 'Socket Testing with Java GUI'
     }
   ];
 
