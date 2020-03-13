@@ -17,7 +17,7 @@
     },
     {
       demo_link: 'https://webos21.github.io/GuiSocketProber',
-      img_link: 'https://webos21.github.io/GuiSocketProber/src/main/resources/icon/logo.gif',
+      img_link: 'https://webos21.github.io/GuiSocketProber/src/main/resources/icons/logo.gif',
       code_link: 'https://github.com/webos21/GuiSocketProber',
       title: 'GuiSocketProber',
       core_tech: 'Java',
