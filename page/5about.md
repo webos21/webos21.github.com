@@ -11,9 +11,9 @@ type: page
 
 ## webos21 (cmjo : Cheolmin Jo)
 
-<iframe src="https://github.com/webos21?achievement=starstruck&tab=achievements" style="border: 0;height: 142px;width: 200px;overflow: hidden;" frameBorder="0"></iframe>
+<img src="https://github.githubassets.com/images/modules/profile/achievements/starstruck-default.png" />
 
-<iframe src="https://github.com/webos21?achievement=arctic-code-vault-contributor&tab=achievements" style="border: 0;height: 142px;width: 200px;overflow: hidden;" frameBorder="0"></iframe>
+<img src="https://github.githubassets.com/images/modules/profile/achievements/arctic-code-vault-contributor-default.png" />
 
 ## Comments
 
