@@ -11,7 +11,9 @@ type: page
 
 ## webos21 (cmjo : Cheolmin Jo)
 
-<iframe src="https://githubbadge.appspot.com/webos21?s=1" style="border: 0;height: 142px;width: 200px;overflow: hidden;" frameBorder="0"></iframe>
+<iframe src="https://github.com/webos21?achievement=starstruck&tab=achievements" style="border: 0;height: 142px;width: 200px;overflow: hidden;" frameBorder="0"></iframe>
+
+<iframe src="https://github.com/webos21?achievement=arctic-code-vault-contributor&tab=achievements" style="border: 0;height: 142px;width: 200px;overflow: hidden;" frameBorder="0"></iframe>
 
 ## Comments
 
