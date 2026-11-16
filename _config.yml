@@ -7,7 +7,8 @@
 
 # Site settings
 title: webos21
-brief-intro: webos21's archives
+brief-intro: CRT & CRT-CLI — Native by design.
+description: Native C/C++ development for embedded Linux, Windows, and macOS. Explore the CRT runtime and CRT-CLI developer tools.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://webos21.github.io" # the base hostname & protocol for your site
 
@@ -49,6 +50,10 @@ tag_dir: tag/
 # excerpt
 excerpt_separator: "\n\n\n\n"
 
-# paginate
-gems: [jekyll-paginate]
-paginate: 6
+# The project homepage is a standalone landing page. Posts remain at /archive/.
+exclude:
+  - README.md
+  - README-ko-kr.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
