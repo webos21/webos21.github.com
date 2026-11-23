@@ -7,8 +7,8 @@
 
 # Site settings
 title: webos21
-brief-intro: CRT & CRT-CLI — Native by design.
-description: Native C/C++ development for embedded Linux, Windows, and macOS. Explore the CRT runtime and CRT-CLI developer tools.
+brief-intro: CRT, CRT-CLI & crt-vscode — Native by design.
+description: Native C/C++ development for embedded Linux, Windows, and macOS with the CRT runtime, CRT-CLI tools, and the crt-vscode extension in development.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://webos21.github.io" # the base hostname & protocol for your site
 

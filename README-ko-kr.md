@@ -1,7 +1,8 @@
-# webos21 — CRT & CRT-CLI
+# webos21 — CRT, CRT-CLI & crt-vscode
 
 [CRT](https://github.com/webos21/crt) 네이티브 C/C++ 런타임과
-[CRT-CLI](https://github.com/webos21/crt-cli) 개발 도구를 소개하는 GitHub Pages 사이트입니다.
+[CRT-CLI](https://github.com/webos21/crt-cli) 개발 도구,
+개발 중인 VS Code 확장 [crt-vscode](https://github.com/webos21/crt-vscode)를 소개하는 GitHub Pages 사이트입니다.
 
 - 한국어·영어 전환, 모바일 반응형 레이아웃, CLI 명령 복사를 제공합니다.
 - 기존 블로그 글과 URL을 보존하며 `/archive/`에서 글 목록을 볼 수 있습니다.

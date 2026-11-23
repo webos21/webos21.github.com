@@ -1,7 +1,7 @@
 ---
 layout: null
-title: CRT & CRT-CLI — Native by design.
-description: 임베디드 Linux에서 데스크톱까지. CRT 네이티브 C/C++ 런타임과 CRT-CLI 개발 도구를 만나보세요.
+title: CRT, CRT-CLI & crt-vscode — Native by design.
+description: CRT 런타임과 CRT-CLI로 네이티브 C/C++ 앱을 개발하세요. 개발 중인 crt-vscode 확장으로 VS Code에서 CRT 프로젝트를 체험할 수 있습니다.
 ---
 <!DOCTYPE html>
 <html lang="ko">
@@ -46,9 +46,9 @@ description: 임베디드 Linux에서 데스크톱까지. CRT 네이티브 C/C++
         <p class="eyebrow"><span class="status-dot"></span> OPEN SOURCE / NATIVE C & C++</p>
         <h1 id="hero-title">Native<br>by <span class="hero-accent">design.</span></h1>
         <p class="hero-lead" data-i18n="hero.lead">임베디드에서 데스크톱까지.<br>하나의 C/C++ 코드베이스로.</p>
-        <p class="hero-description" data-i18n="hero.description">CRT로 플랫폼의 경계를 넘고, CRT-CLI로 개발 흐름을 연결하세요. Linux, Windows, macOS에서 각 환경에 맞는 네이티브 앱을 만듭니다.</p>
+        <p class="hero-description" data-i18n="hero.description">CRT와 CRT-CLI로 Linux, Windows, macOS용 네이티브 앱을 빌드하세요. 개발 중인 crt-vscode 확장은 이 작업 흐름을 VS Code로 가져옵니다.</p>
         <div class="hero-actions"><a class="button button-dark" href="#start"><span data-i18n="hero.cta">개발 시작하기</span><span aria-hidden="true">↗</span></a><a class="text-link" href="#projects"><span data-i18n="hero.explore">프로젝트 살펴보기</span><span aria-hidden="true">↓</span></a></div>
-        <p class="hero-note"><span class="tiny-square" aria-hidden="true"></span><span data-i18n="hero.note">개발자 Preview · 활발히 개발 중</span></p>
+        <p class="hero-note"><span class="tiny-square" aria-hidden="true"></span><span data-i18n="hero.note">Dev SDK·CLI Preview 제공 · VS Code 확장 개발 중</span></p>
       </div>
       <div class="hero-visual" aria-label="CRT native application architecture">
         <div class="visual-caption"><span>THE NATIVE PATH</span><span>01 — 03</span></div>
@@ -62,7 +62,7 @@ description: 임베디드 Linux에서 데스크톱까지. CRT 네이티브 C/C++
     </section>
     <div class="principles"><div class="container principles-inner"><span data-i18n="principle.1">임베디드 Linux 중심</span><span aria-hidden="true">+</span><span data-i18n="principle.2">호스트별 네이티브 빌드</span><span aria-hidden="true">+</span><span data-i18n="principle.3">Clang / LLVM 기반</span><span aria-hidden="true">+</span><span data-i18n="principle.4">오픈 소스 개발</span></div></div>
     <section id="projects" class="section container" aria-labelledby="projects-title">
-      <div class="section-heading"><div><p class="eyebrow">01 / THE PROJECTS</p><h2 id="projects-title" data-i18n="projects.title">두 프로젝트. 하나의 개발 경험.</h2></div><p data-i18n="projects.description">앱을 실행하는 기반부터<br>앱을 만드는 도구까지.</p></div>
+      <div class="section-heading"><div><p class="eyebrow">01 / THE PROJECTS</p><h2 id="projects-title" data-i18n="projects.title">CRT 개발 도구 살펴보기</h2></div><p data-i18n="projects.description">앱을 실행하는 런타임과 SDK,<br>빌드 도구, VS Code 확장.</p></div>
       <div class="project-grid">
         <article class="project project-runtime">
           <div class="project-top"><span class="project-index">01</span><span class="pill">APPLICATION RUNTIME</span><span class="project-glyph" aria-hidden="true">{ }</span></div>
@@ -83,6 +83,26 @@ description: 임베디드 Linux에서 데스크톱까지. CRT 네이티브 C/C++
           <p class="project-description" data-i18n="cli.description">CRT 기반 C/C++ 개발 환경을 관리하는 네이티브 CLI입니다. SDK 설치와 프로젝트 생성, 빌드, 테스트, 실행을 하나의 명령 체계로 연결합니다.</p>
           <ul class="feature-list"><li data-i18n="cli.feature1">정확한 버전을 고정하는 SDK 설치·검증</li><li data-i18n="cli.feature2">crt.json 프로젝트와 LLVM 직접 빌드</li><li data-i18n="cli.feature3">build → test → run 개발 워크플로</li></ul>
           <div class="project-links"><a href="https://github.com/webos21/crt-cli"><span data-i18n="common.repository">GitHub 저장소</span> <span aria-hidden="true">↗</span></a><a href="https://github.com/webos21/crt-cli/blob/main/docs/README.md" data-i18n="common.docs">문서 보기</a></div>
+        </article>
+        <article class="project project-editor">
+          <div class="project-top">
+            <span class="project-index">03</span>
+            <span class="pill" data-i18n="editor.label">VS CODE 확장</span>
+            <span class="project-glyph" aria-hidden="true">&lt;/&gt;</span>
+          </div>
+          <h3>crt-vscode</h3>
+          <p class="project-tagline" data-i18n="editor.tagline">VS Code에서 CRT 프로젝트를 열고 개발하세요.</p>
+          <p class="project-description" data-i18n="editor.description">CRT C/C++ 개발을 지원하는 TypeScript 확장입니다. VS Code 명령과 작업에서 crt-cli를 호출합니다.</p>
+          <ul class="feature-list">
+            <li data-i18n="editor.feature1">crt.json 작업 영역과 CRT 작업 제공</li>
+            <li data-i18n="editor.feature2">Build, Test, Run, Doctor 명령 정의</li>
+            <li data-i18n="editor.feature3">clangd 연동과 확장 배포는 후속 계획</li>
+          </ul>
+          <p class="editor-status" data-i18n="editor.status">초기 개발 버전 0.0.1 · 소스에서 체험</p>
+          <div class="project-links">
+            <a href="https://github.com/webos21/crt-vscode"><span data-i18n="common.repository">GitHub 저장소</span> <span aria-hidden="true">↗</span></a>
+            <a href="https://github.com/webos21/crt-vscode#development" data-i18n="editor.source">소스 실행 안내</a>
+          </div>
         </article>
       </div>
     </section>
@@ -109,17 +129,29 @@ crt-cli build --project hello \
 crt-cli test --project hello
 crt-cli run --project hello</code></pre><div class="terminal-bottom"><span class="terminal-prompt" aria-hidden="true">❯</span><span class="cursor" aria-hidden="true"></span><span>C / C++ · CRT Dev SDK · LLVM</span></div></div><p class="terminal-note" data-i18n="workflow.note">사용 흐름 예시입니다. SDK 설치와 운영체제별 사전 준비는 시작 가이드를 확인하세요.</p></div>
       </div><p class="copy-status" role="status" aria-live="polite"></p>
+      <aside class="editor-workflow" aria-labelledby="editor-workflow-title">
+        <div>
+          <h3 id="editor-workflow-title" data-i18n="workflow.editor.title">VS Code에서 체험하기</h3>
+          <p data-i18n="workflow.editor.description">CLI와 Dev SDK를 먼저 준비하세요. 확장의 Extension Development Host에서 신뢰하는 CRT 프로젝트 폴더를 열고 crt.cliPath에 사용할 CLI의 절대 경로를 지정합니다. 실제 CLI 작업의 검증은 아직 남아 있습니다.</p>
+        </div>
+        <a class="text-link" href="https://github.com/webos21/crt-vscode#development">
+          <span data-i18n="workflow.editor.link">확장 개발 가이드</span><span aria-hidden="true">↗</span>
+        </a>
+      </aside>
     </section>
     <section class="use-cases container" aria-labelledby="use-cases-title"><div><p class="eyebrow">BUILT WITH EMBEDDED IN MIND</p><h2 id="use-cases-title" data-i18n="usecases.title">작은 기기에서,<br>더 넓은 가능성으로.</h2></div><div class="use-case-items"><div><span aria-hidden="true">▤</span><h3 data-i18n="usecases.hmi">산업용 HMI</h3><p data-i18n="usecases.hmiText">제어 패널과 대시보드 프로토타입</p></div><div><span aria-hidden="true">▷</span><h3 data-i18n="usecases.media">미디어 & 디스플레이</h3><p data-i18n="usecases.mediaText">스트리밍 클라이언트와 STB·TV 인터페이스</p></div><div><span aria-hidden="true">⌁</span><h3 data-i18n="usecases.native">네이티브 시각화</h3><p data-i18n="usecases.nativeText">GPU 그래픽 실험과 데스크톱 개발 도구</p></div></div></section>
     <section id="start" class="start-section" aria-labelledby="start-title"><div class="container">
       <div class="start-heading"><div><p class="eyebrow">04 / GET STARTED</p><h2 id="start-title" data-i18n="start.title">다음 네이티브 프로젝트,<br>여기서 시작하세요.</h2></div><div><span class="preview-label"><span class="status-dot"></span> DEVELOPER PREVIEW</span><p data-i18n="start.description">호스트에 맞는 Preview와 설치 가이드를 선택하세요.<br>CLI와 Dev SDK는 별도로 제공됩니다.</p></div></div>
       <div class="platform-grid">
         <article class="platform"><div class="platform-heading"><h3>Linux</h3><span aria-hidden="true">↳</span></div><p>x86_64 / aarch64</p><small data-i18n="start.linux">LLVM 21 필요</small><a href="https://github.com/webos21/crt-cli#download-the-previews"><span data-i18n="start.download">CLI Preview 선택</span><span aria-hidden="true">↗</span></a></article>
-        <article class="platform"><div class="platform-heading"><h3>Windows</h3><span aria-hidden="true">⊞</span></div><p>x64</p><small data-i18n="start.windows">LLVM + Windows SDK 필요</small><a href="https://github.com/webos21/crt-cli/blob/main/docs/guides/windows_preview.md"><span data-i18n="start.windowsGuide">Windows 시작 가이드</span><span aria-hidden="true">↗</span></a></article>
+        <article class="platform"><div class="platform-heading"><h3>Windows</h3><span aria-hidden="true">⊞</span></div><p>x64 / ARM64</p><small data-i18n="start.windows">LLVM + Windows SDK 필요</small><a href="https://github.com/webos21/crt-cli#download-the-previews"><span data-i18n="start.download">CLI Preview 선택</span><span aria-hidden="true">↗</span></a></article>
         <article class="platform"><div class="platform-heading"><h3>macOS</h3><span aria-hidden="true">⌘</span></div><p>Apple Silicon / arm64</p><small data-i18n="start.macos">Xcode Command Line Tools 필요</small><a href="https://github.com/webos21/crt-cli#download-the-previews"><span data-i18n="start.download">CLI Preview 선택</span><span aria-hidden="true">↗</span></a></article>
       </div>
       <div class="start-resources"><a href="https://github.com/webos21/crt/blob/main/docs/guides/dev_sdk_preview.md"><span data-i18n="start.sdk">Dev SDK 설치 가이드</span><span aria-hidden="true">↗</span></a><a href="https://github.com/webos21/crt-cli#try-the-local-workflow"><span data-i18n="start.workflow">CLI 첫 프로젝트 가이드</span><span aria-hidden="true">↗</span></a><a href="https://github.com/webos21/crt/blob/main/docs/guides/faq.md">FAQ <span aria-hidden="true">↗</span></a></div>
-      <p class="preview-note" data-i18n="start.note">CRT는 pre-1.0 개발자 소프트웨어입니다. Preview는 서명되지 않았으며 자동 업데이트 채널이 아닙니다. 설치 가이드에서 해시 검증, 필수 도구, 호스트별 지원 범위를 확인하세요.</p>
+      <p class="preview-note">
+        <span data-i18n="start.note">공개 Dev SDK와 CLI Preview 아카이브에는 게시자 분리 서명이 제공됩니다. 설치하기 전에 해시와 서명을 확인하고, 호스트에 맞는 도구를 준비하세요.</span>
+        <a href="https://github.com/webos21/crt/blob/main/docs/security/publisher_signing.md" data-i18n="start.signing">공개 키 및 서명 검증 안내</a>
+      </p>
     </div></section>
     <section class="contribute container"><div><p class="eyebrow">DEVELOPED IN THE OPEN</p><h2 data-i18n="contribute.title">함께 만드는 네이티브 생태계.</h2><p data-i18n="contribute.description">코드를 살펴보고, 직접 실행하고, 발견한 문제와 아이디어를 나눠주세요.</p></div><a class="button button-dark" href="https://github.com/webos21"><span data-i18n="contribute.link">GitHub에서 함께하기</span><span aria-hidden="true">↗</span></a></section>
   </main>

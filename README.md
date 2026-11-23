@@ -1,8 +1,9 @@
-# webos21 — CRT & CRT-CLI
+# webos21 — CRT, CRT-CLI & crt-vscode
 
 The GitHub Pages homepage for [CRT](https://github.com/webos21/crt), a native
-C/C++ application runtime, and [CRT-CLI](https://github.com/webos21/crt-cli),
-its development-environment manager.
+C/C++ application runtime, [CRT-CLI](https://github.com/webos21/crt-cli),
+its development-environment manager, and [crt-vscode](https://github.com/webos21/crt-vscode),
+the CRT extension for VS Code in early development.
 
 The homepage is a responsive Korean/English landing page. Existing blog posts
 and their permalinks are preserved, with the post index at `/archive/`.

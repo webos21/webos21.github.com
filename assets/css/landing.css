@@ -635,6 +635,18 @@ p {
   background:#eeeee7;
 }
 
+.project-editor {
+  grid-column:1/-1;
+  background:#e8ede7;
+}
+
+.editor-status {
+  color:var(--ink);
+  font-size:var(--text-small);
+  font-weight:600;
+  margin-bottom:20px;
+}
+
 .project-top {
   display:flex;
   flex-wrap:wrap;
@@ -770,6 +782,19 @@ p {
 
 .project-links a:last-child {
   color:#59664c;
+}
+
+@media(min-width:1200px) {
+  .project-grid {
+    grid-template-columns:repeat(3,minmax(0,1fr));
+  }
+  .project-editor {
+    grid-column:auto;
+  }
+  .project>h3 {
+    font-size:clamp(38px,3.55vw,55px);
+    letter-spacing:-.06em;
+  }
 }
 
 .architecture-section {
@@ -924,6 +949,34 @@ p {
   grid-template-columns:.8fr 1.2fr;
   gap:70px;
   align-items:start;
+}
+
+.editor-workflow {
+  display:flex;
+  flex-wrap:wrap;
+  align-items:center;
+  justify-content:space-between;
+  gap:16px 28px;
+  border-left:3px solid #6b8a24;
+  background:#e8ede7;
+  margin-top:24px;
+  padding:20px clamp(16px,3vw,30px);
+}
+
+.editor-workflow>div {
+  flex:1 1 420px;
+  min-width:0;
+}
+
+.editor-workflow h3 {
+  color:var(--ink);
+  font-size:var(--text-body);
+  margin:0 0 6px;
+}
+
+.editor-workflow p {
+  font-size:var(--text-small);
+  line-height:1.7;
 }
 
 .workflow-steps {
@@ -1272,6 +1325,11 @@ p {
   margin-top:30px;
   padding-top:20px;
   max-width:950px;
+}
+
+.preview-note a {
+  text-decoration:underline;
+  text-underline-offset:3px;
 }
 
 .contribute {
